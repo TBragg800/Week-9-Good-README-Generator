@@ -29,17 +29,17 @@ const questions = [
       },
       {
         type: "checkbox",
-    message: "Choose a license for your project.",
-    name: "license",
-    choices: [
-      "Apache License 2.0 - https://choosealicense.com/licenses/apache-2.0/", 
-      "GNU - https://choosealicense.com/licenses/gpl-3.0/", 
-      "MIT - https://choosealicense.com/licenses/mit/", 
-      "ISC - https://choosealicense.com/licenses/isc/",
-      "Mozilla Public License 2.0 - https://choosealicense.com/licenses/mpl-2.0/",
-      "The Unlicense - https://choosealicense.com/licenses/unlicense/"
-    ],
-    default: "The Unlicense - https://choosealicense.com/licenses/unlicense/"
+        message: "Choose a license for your project.",
+        name: "license",
+        choices: [
+        "Apache License 2.0 - https://choosealicense.com/licenses/apache-2.0/", 
+        "GNU - https://choosealicense.com/licenses/gpl-3.0/", 
+        "MIT - https://choosealicense.com/licenses/mit/", 
+        "ISC - https://choosealicense.com/licenses/isc/",
+        "Mozilla Public License 2.0 - https://choosealicense.com/licenses/mpl-2.0/",
+        "The Unlicense - https://choosealicense.com/licenses/unlicense/"
+        ],
+        default: "The Unlicense - https://choosealicense.com/licenses/unlicense/"
       },
       {
         type: "input",

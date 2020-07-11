@@ -32,14 +32,14 @@ const questions = [
         message: "Choose a license for your project.",
         name: "license",
         choices: [
-        "Apache License 2.0 - https://choosealicense.com/licenses/apache-2.0/", 
-        "GNU - https://choosealicense.com/licenses/gpl-3.0/", 
-        "MIT - https://choosealicense.com/licenses/mit/", 
-        "ISC - https://choosealicense.com/licenses/isc/",
-        "Mozilla Public License 2.0 - https://choosealicense.com/licenses/mpl-2.0/",
-        "The Unlicense - https://choosealicense.com/licenses/unlicense/"
+        "Apache", 
+        "GNU", 
+        "MIT", 
+        "ISC",
+        "Mozilla",
+        "Unlicense"
         ],
-        default: "The Unlicense - https://choosealicense.com/licenses/unlicense/"
+        default: "Unlicense"
       },
       {
         type: "input",
@@ -61,6 +61,11 @@ const questions = [
         type: "input",
         message: "Give your email address so the user can submit questions.",
         name: "email"
+      },
+      {
+        type: "input",
+        message: "Give your GitHub username so the user can submit questions.",
+        name: "github"
       }
 
 // * Title
@@ -72,6 +77,12 @@ const questions = [
 // * Contributing
 // * Tests
 // * Questions
+// https://choosealicense.com/licenses/apache-2.0/
+// https://choosealicense.com/licenses/gpl-3.0/
+// https://choosealicense.com/licenses/mit/
+// https://choosealicense.com/licenses/isc/
+// https://choosealicense.com/licenses/mpl-2.0/
+// https://choosealicense.com/licenses/unlicense/
 ];
 
 // function to write README file

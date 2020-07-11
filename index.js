@@ -78,6 +78,7 @@ const questions = [
 // * Tests
 // * Questions
 // Maybe use activity 9 as example to write full license statement
+// functionality improvement: add api against user generated keywords to insert corresponding photos or gifs 
 // https://choosealicense.com/licenses/apache-2.0/
 // https://choosealicense.com/licenses/gpl-3.0/
 // https://choosealicense.com/licenses/mit/
@@ -103,7 +104,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then(answers => {
         console.log(answers);
-        writeToFile(fileName, data);
+        writeToFile("README.md", answers);
       })
 }
 

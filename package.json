@@ -1,14 +1,22 @@
 {
-  "name": "static-site",
+  "name": "week-9-good-readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Week-9-Good README Generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Thomas Bragg",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TBragg800/Week-9-Good-README-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TBragg800/Week-9-Good-README-Generator/issues"
+  },
+  "homepage": "https://github.com/TBragg800/Week-9-Good-README-Generator#readme"
 }

@@ -2,7 +2,6 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-
 // array of questions for user
 const questions = [
     {
@@ -39,7 +38,6 @@ const questions = [
         "Mozilla",
         "Unlicense"
         ],
-        default: "Unlicense"
       },
       {
         type: "input",
@@ -67,7 +65,6 @@ const questions = [
         message: "Give your GitHub username so the user can submit questions.",
         name: "github"
       }
-
 // * Title
 // * Description
 // * Table of Contents
@@ -86,7 +83,6 @@ const questions = [
 // https://choosealicense.com/licenses/mpl-2.0/
 // https://choosealicense.com/licenses/unlicense/
 ];
-
 // function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
@@ -104,7 +100,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then(answers => {
         console.log(answers);
-        writeToFile("README.md", answers);
+        writeToFile("README.md", generateMarkdown(answers));
       })
 }
 

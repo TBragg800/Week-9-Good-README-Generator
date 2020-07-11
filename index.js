@@ -77,6 +77,7 @@ const questions = [
 // * Contributing
 // * Tests
 // * Questions
+// Maybe use activity 9 as example to write full license statement
 // https://choosealicense.com/licenses/apache-2.0/
 // https://choosealicense.com/licenses/gpl-3.0/
 // https://choosealicense.com/licenses/mit/
@@ -87,11 +88,22 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
+
+        if (err) {
+          return console.log(err);
+        }
+      
+        console.log("Success!");
+      
+      });
 }
 
 // function to initialize program
 function init() {
-
+    inquirer.prompt(questions).then(answers => {
+        console.log(answers);
+      })
 }
 
 // function call to initialize program

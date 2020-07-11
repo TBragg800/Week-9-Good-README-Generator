@@ -37,7 +37,7 @@ const questions = [
         "ISC",
         "Mozilla",
         "Unlicense"
-        ],
+        ]
       },
       {
         type: "input",

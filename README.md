@@ -6,7 +6,7 @@ https://github.com/TBragg800/Week-9-Good-README-Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)]
 
 ## Walkthrough Video Demonstration: 
-![Demo](https://www.youtube.com/embed/_YcUsqN7ZSg)
+![Walkthrough](./utils/readMeGen.gif)
 
 ## Table of Contents
   [Description](#Description)

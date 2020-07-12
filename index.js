@@ -11,6 +11,11 @@ const questions = [
       },
       {
         type: "input",
+        name: "repository",
+        message: "What is the link to your project's repository?"
+      },
+      {
+        type: "input",
         message: "How would you describe your project?",
         name: "description"
       },
@@ -65,23 +70,7 @@ const questions = [
         message: "Give your GitHub username so the user can submit questions.",
         name: "github"
       }
-// * Title
-// * Description
-// * Table of Contents
-// * Installation
-// * Usage
-// * License
-// * Contributing
-// * Tests
-// * Questions
-// Maybe use activity 9 as example to write full license statement
-// functionality improvement: add api against user generated keywords to insert corresponding photos or gifs 
-// https://choosealicense.com/licenses/apache-2.0/
-// https://choosealicense.com/licenses/gpl-3.0/
-// https://choosealicense.com/licenses/mit/
-// https://choosealicense.com/licenses/isc/
-// https://choosealicense.com/licenses/mpl-2.0/
-// https://choosealicense.com/licenses/unlicense/
+
 ];
 // function to write README file
 function writeToFile(fileName, data) {

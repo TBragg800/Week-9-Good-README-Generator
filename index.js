@@ -27,7 +27,7 @@ const questions = [
         default: "After installation, the user should run 'node index.js' in the command line, then answer the following prompts."
       },
       {
-        type: "checkbox",
+        type: "list",
         message: "Choose a license for your project.",
         name: "license",
         choices: [
@@ -90,7 +90,7 @@ function writeToFile(fileName, data) {
         if (err) {
           return console.log(err);
         }
-      
+        console.log(data.license);
         console.log("Success!");
       
       });

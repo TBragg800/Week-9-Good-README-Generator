@@ -1,6 +1,6 @@
 # 2
 
-[![License: ](https://img.shields.io/badge/License--brightgreen.svg)]
+[![License: GNU](https://img.shields.io/badge/License-GNU-brightgreen.svg)]
 
 ## Table of Contents
   [Description](#Description)
@@ -27,7 +27,7 @@
   2
 
 ## License
-  
+  GNU
 
 ## Contributing
   2

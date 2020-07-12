@@ -79,7 +79,6 @@ function writeToFile(fileName, data) {
         if (err) {
           return console.log(err);
         }
-        console.log(data.license);
         console.log("Success!");
       
       });

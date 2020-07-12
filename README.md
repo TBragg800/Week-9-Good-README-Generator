@@ -1,6 +1,12 @@
-# 2
+# README Generator
 
-[![License: Apache](https://img.shields.io/badge/License-Apache-brightgreen.svg)]
+##  Repository: 
+https://github.com/TBragg800/Week-9-Good-README-Generator
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)]
+
+## Walkthrough Video Demonstration: 
+![](https://www.youtube.com/watch?v=_YcUsqN7ZSg&t=15s)
 
 ## Table of Contents
   [Description](#Description)
@@ -18,7 +24,7 @@
   [Questions](#Questions)
   
 ## Description
-  2
+  This project is a CLI application that utilizes node.js to dynamically generate a README.md file to the user through a series of prompts by way of  the Inquirer package. The answers are then appended to the file offering a quick and professional README.
 
 ## Installation
   The user should run 'npm install' in the command line.
@@ -27,16 +33,18 @@
   After installation, the user should run 'node index.js' in the command line, then answer the following prompts.
 
 ## License
-  Apache
+  MIT
 
 ## Contributing
   Fork the project & clone locally. Create an upstream remote and sync your local copy before you branch. Branch for each separate piece of work. Do the work, write good commit messages, and read the CONTRIBUTING file if there is one. Push to your origin repository. Create a new PR in GitHub.
 
 ## Tests
-  2
+  There are no test instructions at this time.
 
 ## Questions
-  2
-  
-  Email: 2
-  Github: [2] (http://github.com/2)
+  All questions should be submitted to the email listed below. Please consult the GitHub profile or Repo for additional concerns. 
+  Email: Ttbbragg83@gmail.com
+  Github: [TBragg800] (http://github.com/TBragg800)
+
+## Screenshot of deployed application
+![](./utils/readMeGenScreenShot.png)

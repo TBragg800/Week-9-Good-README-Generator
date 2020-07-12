@@ -79,6 +79,7 @@ function writeToFile(fileName, data) {
         if (err) {
           return console.log(err);
         }
+
         console.log("Success!");
       
       });
@@ -87,7 +88,7 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then(answers => {
-        writeToFile("./utils/README.md", generateMarkdown(answers));
+        writeToFile("README.md", generateMarkdown(answers));
       })
 }
 

@@ -1,4 +1,4 @@
-# Good Readme
+# 2
 
 [![License: Apache](https://img.shields.io/badge/License-Apache-brightgreen.svg)]
 
@@ -18,7 +18,7 @@
   [Questions](#Questions)
   
 ## Description
-  Good Readme
+  2
 
 ## Installation
   The user should run 'npm install' in the command line.
@@ -33,9 +33,10 @@
   Fork the project & clone locally. Create an upstream remote and sync your local copy before you branch. Branch for each separate piece of work. Do the work, write good commit messages, and read the CONTRIBUTING file if there is one. Push to your origin repository. Create a new PR in GitHub.
 
 ## Tests
-  Email or contact me through my provided email address or github profile.
+  2
 
 ## Questions
+  2
   
   Email: 2
   Github: [2] (http://github.com/2)

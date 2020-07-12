@@ -6,7 +6,7 @@ https://github.com/TBragg800/Week-9-Good-README-Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)]
 
 ## Walkthrough Video Demonstration: 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_YcUsqN7ZSg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![Demo](https://www.youtube.com/embed/_YcUsqN7ZSg)
 
 ## Table of Contents
   [Description](#Description)
